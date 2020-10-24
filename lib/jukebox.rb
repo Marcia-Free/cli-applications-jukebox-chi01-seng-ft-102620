@@ -3,13 +3,13 @@ def run
   input = gets.strip
   
   case input
-  when == "help"
+  when "help"
     help
-  when == "list"
+  when "list"
     list
-  when == "play"
+  when "play"
     play
-  when == "exit"
+  when "exit"
     exit
   else
     
