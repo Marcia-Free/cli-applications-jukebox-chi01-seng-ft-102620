@@ -6,11 +6,11 @@ def run
   when "help"
     help
   when "list"
-    list
+    list(songs_array)
   when "play"
-    play
+    play(songs_array)
   when "exit"
-    exit
+    exit_jukebox
 
   end
 end
