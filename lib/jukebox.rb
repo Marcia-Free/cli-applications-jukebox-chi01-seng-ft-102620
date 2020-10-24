@@ -3,7 +3,9 @@ def run
   input = gets.strip
   
   case input
-  when == 
+  when "help"
+    
+    when
 end
 
 
