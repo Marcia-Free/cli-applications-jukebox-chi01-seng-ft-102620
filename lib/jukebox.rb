@@ -2,7 +2,7 @@ def run
   puts "Please enter a command:"
   input = gets.strip
   
-  case input
+  case input ==
   when "help"
     help
   when "list"
@@ -11,7 +11,6 @@ def run
     play(songs_array)
   when "exit"
     exit_jukebox
-
   end
 end
 
