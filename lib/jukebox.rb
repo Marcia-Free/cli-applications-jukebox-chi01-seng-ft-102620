@@ -11,6 +11,9 @@ def run
     play
   when == "exit"
     exit
+  else
+    
+  end
 end
 
 
