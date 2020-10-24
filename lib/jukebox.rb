@@ -2,7 +2,7 @@ def run
   puts "Please enter a command:"
   input = gets.strip
   
-  case input ==
+  case input.to_s
   when "help"
     help
   when "list"
