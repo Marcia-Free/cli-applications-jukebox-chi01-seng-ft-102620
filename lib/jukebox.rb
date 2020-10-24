@@ -13,7 +13,10 @@ end
 
 
 def play(songs_array)
+  puts "Please enter a song name or number:"
+  input = gets.strip
   
+  if input == songs_array
 end
 
 
