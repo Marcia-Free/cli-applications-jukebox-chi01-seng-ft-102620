@@ -14,7 +14,7 @@ end
 
 def play(songs_array)
   puts "Please enter a song name or number:"
-  input = gets.strip.to_s
+  input = gets.strip
   
   songs_array.each_with_index do |element, index|
     index += 1
