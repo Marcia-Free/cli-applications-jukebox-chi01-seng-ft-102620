@@ -2,14 +2,13 @@ def run
   puts "Please enter a command:"
   input = gets.strip
   
-  case input.to_s
-  when "help"
+  if input === "help"
     help
-  when "list"
+  elsif input === "list"
     list(songs_array)
-  when "play"
+  elsif input === "play"
     play(songs_array)
-  when "exit"
+  elsif input ==="exit"
     exit_jukebox
   end
 end
