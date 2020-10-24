@@ -18,7 +18,7 @@ end
 
 
 def list(songs_array)
-  
+  songs_array.each_with_array
 end
 
 
