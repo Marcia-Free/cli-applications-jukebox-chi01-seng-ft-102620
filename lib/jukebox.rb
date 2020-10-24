@@ -2,7 +2,7 @@ def run
   puts "Please enter a command:"
   input = gets.strip
   
-  selection = case input
+  case input.to_s
   when "help"
     help
   when "list"
@@ -12,7 +12,6 @@ def run
   when "exit"
     exit_jukebox
   end
-  selection
 end
 
 
