@@ -19,7 +19,7 @@ def play(songs_array)
   songs_array.each_with_index do |element, index|
     index += 1
     if input.to_i == index || input == element
-      puts "Playing #{element}"
+      return puts "Playing #{element}"
     else
       puts "Invalid input, please try again"
     end
