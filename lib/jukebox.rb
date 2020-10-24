@@ -20,6 +20,7 @@ def play(songs_array)
     index += 1
     if input == index || input == element
       puts "Playing #{element}"
+    else"Invald
     end
   end
 end
