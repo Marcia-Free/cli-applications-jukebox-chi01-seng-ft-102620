@@ -3,7 +3,7 @@ def run
   input = gets.strip
   
   case input
-  when "help"
+  when == "help"
     help
   when "list"
     list(songs_array)
