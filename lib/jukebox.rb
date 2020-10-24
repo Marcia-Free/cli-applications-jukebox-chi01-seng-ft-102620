@@ -1,5 +1,9 @@
 def run 
-  puts
+  puts "Please enter a command:"
+  input = gets.strip
+  
+  case input
+  when == 
 end
 
 
