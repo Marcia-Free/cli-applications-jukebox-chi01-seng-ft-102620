@@ -18,7 +18,11 @@ end
 
 
 def list(songs_array)
-  songs_array.each_with_index
+  song_num = 0
+  songs_array.each_with_index do |element|
+    song_num += 1
+  puts "#{song_num}. element"
+  end
 end
 
 
