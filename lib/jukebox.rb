@@ -14,15 +14,14 @@ end
 
 def play(songs_array)
   puts "Please enter a song name or number:"
-  input = gets.chomp
+  input = gets.strip
   
   songs_array.each_with_index do |element, index|
     index += 1
     if input == index || input == element
       puts "Playing #{element}"
-    else 
-      puts "Invalid input, please try again"
     end
+    puts "Invalid input, please try again"
   end
   
 end
