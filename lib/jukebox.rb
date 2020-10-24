@@ -18,7 +18,7 @@ def play(songs_array)
   
   songs_array.each_with_index do |element, index|
     index += 1
-    if input.to_ == index || input == element
+    if input.to_i == index || input == element
       puts "Playing #{element}"
     end
   end
