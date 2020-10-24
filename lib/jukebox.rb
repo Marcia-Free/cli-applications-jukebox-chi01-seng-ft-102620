@@ -20,6 +20,8 @@ def play(songs_array)
     index += 1
     if input.to_i == index || input == element
       puts "Playing #{element}"
+    else
+      puts "Invalid input, please try again"
     end
   end
   
