@@ -16,7 +16,12 @@ def play(songs_array)
   puts "Please enter a song name or number:"
   input = gets.strip
   
-  if input == songs_array
+  songs_array.each_with_index do |element, index|
+    index += 1
+    if input == index || input == element
+      puts "Playing #{element}"
+    end
+  end
 end
 
 
