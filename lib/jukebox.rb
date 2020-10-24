@@ -21,7 +21,6 @@ def play(songs_array)
     if input.to_i == index || input == element
       return puts "Playing #{element}"
     end
-    
   end
   puts "Invalid input, please try again"
 end
@@ -36,7 +35,7 @@ end
 
 
 def exit_jukebox
-  
+  puts "Goodbye"
 end
 
 
