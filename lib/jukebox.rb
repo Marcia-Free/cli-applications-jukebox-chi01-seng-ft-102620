@@ -12,8 +12,6 @@ def run(songs_array)
   when "exit"
     return exit_jukebox
   end
-  
-
 end
 
 
